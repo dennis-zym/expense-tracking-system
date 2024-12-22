@@ -32,7 +32,8 @@ This will login to your Firebase.
 ### `npx firebase projects:create`
 When prompted, provide these details:
 - Project ID: (e.g., aa1-expense-tracker)
-- Project Name: (e.g., Expense-Track)
+- Project Name: (e.g., Expense-Track).
+
 Open the prompted Firebase Console link.
 Navigate to Project Overview.
 Add Firebase to the app by clicking the Web icon.
