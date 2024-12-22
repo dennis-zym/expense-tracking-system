@@ -18,35 +18,32 @@ This is a web-based react application developed for the **Information Systems Pr
 
 Make sure you have Node.js installed on your local machine.
 
-In the command prompt of the project directory, run:
 
-### `npm install`
-This will install the necessary dependencies. 
 
-### `npm install firebase-tools`
-### `npm install node-firestore-import-export`
-### `npx firebase login`
-Type Y when prompted and proceed. Sign in to your Firebase account. Trust Firebase CLI.
-This will login to your Firebase.
+### Install the Necessary Dependencies
+- In the command prompt of the project directory, run: `npm install`
 
-### `npx firebase projects:create`
-When prompted, provide these details:
-- Project ID: (e.g., aa1-expense-tracker)
-- Project Name: (e.g., Expense-Track).
+### Login to Firebase 
+- In the command prompt of the project directory, run: 
+    - `npm install firebase-tools`
+    - `npm install node-firestore-import-export`
+    - `npx firebase login`
+- Type Y when prompted and proceed. 
+- Sign in to your Firebase account. 
+- Trust Firebase CLI.
 
-Open the prompted Firebase Console link.
-
-Navigate to Project Overview.
-
-Add Firebase to the app by clicking the Web icon.
-
-Fill out the necessary detail and register the app.
-
-Copy the Firebase Config Object provided.
-
-In the project folder, open `src > config > firebase-config.js` file.
-
-Replace the `firebaseConfig` object with the copied one. 
+### Create Firebase Project
+- In the command prompt of the project directory, run: `npx firebase projects:create`
+- When prompted, provide these details:
+    - Project ID: (e.g., aa1-expense-tracker)
+    - Project Name: (e.g., Expense-Track)
+- Open the prompted Firebase Console link.
+- Navigate to Project Overview.
+- Add Firebase to the app by clicking the Web icon.
+- Fill out the necessary detail and register the app.
+- Copy the Firebase Config Object provided.
+- In the project folder, open `src > config > firebase-config.js` file.
+- Replace the `firebaseConfig` object with the copied one. 
 
 ### Enable Authentication in Firebase
 
