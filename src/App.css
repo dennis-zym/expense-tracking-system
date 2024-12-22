@@ -1,0 +1,14 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0;
+}
+.App {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(0, 34, 96, 1);
+}

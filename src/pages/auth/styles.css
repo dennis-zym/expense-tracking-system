@@ -1,0 +1,14 @@
+.login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .error {
+    color: red;
+    margin: 10px;
+    font-family: "Segoe UI";
+  }
+  
