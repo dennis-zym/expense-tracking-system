@@ -31,8 +31,8 @@ This will login to your Firebase.
 
 ### `npx firebase projects:create`
 When prompted, provide these details:
-o	Project ID: (e.g., aa1-expense-tracker)
-o	Project Name: (e.g., Expense-Track)
+- Project ID: (e.g., aa1-expense-tracker)
+- Project Name: (e.g., Expense-Track)
 Open the prompted Firebase Console link.
 Navigate to Project Overview.
 Add Firebase to the app by clicking the Web icon.
@@ -49,9 +49,3 @@ In a new command prompt of the project directory, run:
 
 ### `npm start`
 This will launch the React app at http://localhost:3000.
-
-## API Key Information
-
-The API key used in this project (AIzaSyClxGPA_0e1kdez3fsQMCVaaKuCXznlxxE) is expired and can no longer be used. To run the project successfully, you must replace the key with a valid Google Cloud Vision API key. Do this in `line 18` of the `src>Photos.js` file. 
-
-##
