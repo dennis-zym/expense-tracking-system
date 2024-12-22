@@ -35,13 +35,39 @@ When prompted, provide these details:
 - Project Name: (e.g., Expense-Track).
 
 Open the prompted Firebase Console link.
+
 Navigate to Project Overview.
+
 Add Firebase to the app by clicking the Web icon.
+
 Fill out the necessary detail and register the app.
+
 Copy the Firebase Config Object provided.
+
 In the project folder, open `src > config > firebase-config.js` file.
+
 Replace the `firebaseConfig` object with the copied one. 
 
+### Enable Authentication in Firebase
+
+- In the frebase project console, go to `Build` section in the left-hand menu. 
+- Click `Authentication`. 
+- Go to `Sign-in method` tab.
+- Enable `Email/Password` authentication
+- Navigate to `Authentication` > `Users` and add your admin user using your `email` and `password` (you will use this email and password to sign into the Expense Tracking System as the `administrator`).
+- Return to the project folder.
+- Open `src > pages > auth > index.jsx` file.
+- In line `36` and `47`, replace the placeholder email with the your email.
+
+### Configure Firestore Database
+
+- In your Firebase project console, go to `Build` section in the left-hand menu. 
+- Click `Firestore Database` and click `Create Database`.
+- Choose `Production Mode` and select Firestore Location. 
+- Return back to `Build > Firestore Database`.
+- Click on the `Rules` tab at the top of the Firestore page.
+- Update line 6 of the rules to `allow read, write: if request.auth != true;`.
+- Click `Publish`
 ### ``
 ### ``
 This will start the mock backend server (JSON Server)
