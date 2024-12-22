@@ -91,4 +91,4 @@ Make sure you have Node.js installed on your local machine.
 - Enter `yes` when prompted.
 
 ### Run Expense Tracking System
--In the `command prompt` of the project directory, run: `npm start`
+- In the `command prompt` of the project directory, run: `npm start`
